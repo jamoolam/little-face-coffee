@@ -1,6 +1,6 @@
 # Introduction
 
-A Simple ToDo App is built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app 
+A Simple application to be used and tested within a local Coffee Shop, built using the MVC Architecture, with the intention of speeding up workflow among wait-staff as well as implementing a more modern spin on the traditional Cafe experience.
 
 ---
 
@@ -10,13 +10,13 @@ A Simple ToDo App is built using the MVC Architecture, we have also implemented 
 
 # Objectives
 
-- It's a beginner level app created to understand how MVC concept and logins are added
+- Cashiers can take coffee orders from customers with their names. Baristas can login to the app and see orders that have been made, mark them as complete. Orders that have been completed will note which barista completed the order as well as store the information in a database for whatever uses the business sees as appropriate.
 
 ---
 
 # Who is this for? 
 
-- It's for beginners & intermediates with little more experience, to help understand the various aspects of building a node app with some complex features
+- This application is for Little Face Coffee and their constituants, as well as anyone who would like to create their own online coffee-serving service. 
 
 ---
 
@@ -38,7 +38,5 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
   - PORT: 2121 (can be any port example: 3000) 
   - DB_STRING: `your database URI` 
  ---
- 
- Have fun testing and improving it! 😎
 
 
